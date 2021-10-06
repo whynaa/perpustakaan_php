@@ -10,12 +10,10 @@
 </head>
 <body>
     <?php
+        include "navbar.php";
         include "koneksi.php";
         $query_kelas = mysqli_query($koneksi, "select * from kelas where id_kelas='".$_GET['id_kelas']."'");
         $data_kelas = mysqli_fetch_array($query_kelas);
-    ?>
-    <?php
-        include "navbar.php";
     ?>
     <br></br>
     <div class="container">
