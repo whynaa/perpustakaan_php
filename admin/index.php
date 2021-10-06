@@ -6,7 +6,7 @@
     <meta name="description" content="">
     <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
     <meta name="generator" content="Hugo 0.84.0">
-    <title>Login Siswa</title>
+    <title>Login Admin</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/sign-in/">
 
@@ -40,7 +40,7 @@
         <form action="proses_login.php" method="POST">
             <h1>PERPUSTAKAAN</h1>
             <br>
-            <h1 class="h3 mb-3 fw-normal">Please sign in</h1>
+            <h1 class="h3 mb-3 fw-normal">Admin Page</h1>
 
             <div class="form-floating">
             <input type="username" class="form-control" id="floatingInput" 

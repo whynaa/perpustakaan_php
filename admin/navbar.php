@@ -1,3 +1,9 @@
+<?php
+  session_start();
+  if ($_SESSION['status_admin'] != true) {
+    header('location:index.php');
+  }
+?>
 <nav class="navbar navbar-dark bg-dark shadow-sm navbar-expand-lg">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">PERPUSTAKAAN</a>
@@ -15,6 +21,9 @@
         <li class="nav-item">
           <a class="nav-link" href="tampil_buku.php">Data Buku</a>
         </li>
+        <li class="nav-item">
+            <a class="nav-link" href="proses_logout.php">Logout</a>
+          </li>
       </ul>
     </div>
   </div>
